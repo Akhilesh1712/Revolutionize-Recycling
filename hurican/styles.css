@@ -1,0 +1,86 @@
+body {
+  height: 100vh; /* Ensures body takes full viewport height */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.herzindagi.info/image/2023/Aug/reduce-reuse-recycle-importance.jpg');
+  background-size: contain; /* Adjusted to fit the image without cropping */
+  background-position: center;
+  color: #fff;
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #a5a241; /* Netflix red color */
+  }
+  
+  .main {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sign-in-box {
+    text-align: center;
+  }
+  
+  .sign-in-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sign-in-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff3f30;
+  }
+  
+  .help-text {
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #e50914;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
